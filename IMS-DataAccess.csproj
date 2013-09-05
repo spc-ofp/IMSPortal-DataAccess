@@ -69,6 +69,9 @@
     <Compile Include="DAL\Maps\Lic\PaymentsRegMap.cs" />
     <Compile Include="DAL\Maps\Lic\ReceiptsMap.cs" />
     <Compile Include="DAL\Maps\Lic\RegistrationsMap.cs" />
+    <Compile Include="DAL\Maps\Recon\ViewLogYyMmEezAllIDMap.cs" />
+    <Compile Include="DAL\Maps\Recon\ViewSamplesYyMmAllIDMap.cs" />
+    <Compile Include="DAL\Maps\Recon\ViewUnloadsYyMmAllIDMap.cs" />
     <Compile Include="DAL\Maps\Ref\AgreementOwnershipMap.cs" />
     <Compile Include="DAL\Maps\Ref\AgreementTypesMap.cs" />
     <Compile Include="DAL\Maps\Ref\CountriesMap.cs" />
@@ -76,12 +79,14 @@
     <Compile Include="DAL\Maps\Ref\IafZonesMap.cs" />
     <Compile Include="DAL\Maps\Ref\LicenseStatusMap.cs" />
     <Compile Include="DAL\Maps\Ref\LicenseTypesMap.cs" />
+    <Compile Include="DAL\Maps\Ref\PortsMap.cs" />
     <Compile Include="DAL\Maps\Tufman\CompaniesMap.cs" />
     <Compile Include="DAL\Maps\Tufman\CurrenciesMap.cs" />
     <Compile Include="DAL\Maps\Tufman\LicenseProfilesMap.cs" />
     <Compile Include="DAL\Maps\Tufman\PaymentTypesMap.cs" />
     <Compile Include="DAL\Maps\Tufman\ProfilesMap.cs" />
     <Compile Include="DAL\Maps\Tufman\RegProfilesMap.cs" />
+    <Compile Include="DAL\Maps\Unload\UnloadingsPsMap.cs" />
     <Compile Include="DAL\Maps\Ves\VesselCategoriesMap.cs" />
     <Compile Include="DAL\Maps\Ves\VesselsMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,7 +95,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DAL\Maps\log\" />
+    <Folder Include="DAL\Maps\Log\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

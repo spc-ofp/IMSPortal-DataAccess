@@ -27,7 +27,7 @@ namespace IMSDataAccessTests.Configuration
                 .ConnectionString(c => c
                 .Host("rimf.ffa.int")       //202.4.229.96
                 .Port(5432)
-                .Database("norma_prod")
+                .Database("mh_prod")
                 .Username("ofp_admin")
                 .Password("ofp_admin")))
                 .Mappings(m => m.FluentMappings.AddFromAssemblyOf<IMS.DAL.Maps.Ves.VesselCategoriesMap>());
